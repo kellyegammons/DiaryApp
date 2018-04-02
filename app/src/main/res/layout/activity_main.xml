@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="start"
+    android:orientation="vertical"
+    tools:context="com.example.mariette.diaryapp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mascotView"
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/desMascot"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/girl" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_posts_recView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

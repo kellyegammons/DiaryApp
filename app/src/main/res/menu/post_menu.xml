@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuEditPost"
+        android:title="@string/menuEditPost">
+    </item>
+    <item
+        android:id="@+id/menuNewPost"
+        android:title="@string/menuNewPost">
+    </item>
+    <item
+        android:id="@+id/menuDeletePost"
+        android:title="@string/menuDeletePost">
+    </item>
+    <item
+        android:id="@+id/menuChangeMascot"
+        android:title="@string/menuChangeMascot">
+    </item>
+    <item
+        android:id="@+id/menuHome"
+        android:title="@string/menuHome">
+    </item>
+</menu>

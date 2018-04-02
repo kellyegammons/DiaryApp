@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPostTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty Post"
+            android:textSize="24sp"
+            android:paddingBottom="5dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvPostDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Tue, March 27 2018 a 7:07 PM"
+            android:textSize="12dp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@android:drawable/divider_horizontal_textfield" />
+
+    </LinearLayout>
+
+</RelativeLayout>

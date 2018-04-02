@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="labelTitle">Title</string>
+    <string name="placeholderBody">Start typing...</string>
+    <string name="btnPost">Post</string>
+    <string name="placeholderTitle">Title</string>
+    <string name="btnEdit">Edit</string>
+    <string name="menuNewPost">New Post</string>
+    <string name="menuEditPost">Edit Post</string>
+    <string name="menuHome">Home</string>
+    <string name="menuDeletePost">Delete Post</string>
+    <string name="desMascot">Mascot</string>
+    <string name="labelChangeMascot">Change Mascot</string>
+    <string name="labelChangeText">touch to change</string>
+    <string name="menuChangeMascot">Change Mascot</string>
+</resources>
