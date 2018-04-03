@@ -140,11 +140,8 @@ public class ViewPostActivity extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         //onBackPressed();
-        try {
+            startActivity(new Intent(getApplicationContext(),MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
             finish();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
         return true;
     }
 
